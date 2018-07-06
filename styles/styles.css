@@ -1,0 +1,67 @@
+@font-face { /* Définition d'une nouvelle police nommée Tangerine en gras (pour les titres) */
+    font-family: 'TangerineB';
+    src :url('Tangerine-Bold.ttf');
+}
+
+
+@font-face { /* Définition d'une nouvelle police nommée Tangerine */
+    font-family: 'Tangerine';
+    src :url('Tangerine-Regular.ttf');
+}
+
+body {
+    font-family: 'Tangerine', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #917253;
+}
+
+#book {
+    background-image: url('../images/bg-book-wide-1024.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  1024px 742px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 1024px;
+    height: 742px;
+}
+h1, h3{
+    font-family: 'TangerineB', sans-serif;
+    color: #E6CFA6;
+    text-shadow: 2px 2px 1px black;
+}
+
+#choixAuteur {
+    width: 470px;
+    text-align: center;
+}
+
+.titreMenuChoix{
+    text-align: center;
+}
+.menuChoix {
+    height: 200px;
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.imageChoix {
+    background-color: darkgray;
+    width: 200px;
+}
+.optionsChoix {
+    background-color: chocolate;
+    width: 200px;
+}
+#story {
+    width: 450px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
